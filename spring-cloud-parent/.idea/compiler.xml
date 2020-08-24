@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config" />
+        <module name="configprovider" />
+        <module name="consumerribbon" />
+        <module name="eurkaserver" />
+        <module name="fegin" />
+        <module name="feginconsumer" />
+        <module name="hystrix" />
+        <module name="serverconsumer" />
+        <module name="serverprovider" />
+        <module name="serverprovider2" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config" target="1.5" />
+      <module name="configprovider" target="1.5" />
+      <module name="consumerribbon" target="1.5" />
+      <module name="eurkaserver" target="1.5" />
+      <module name="fegin" target="1.5" />
+      <module name="feginconsumer" target="1.5" />
+      <module name="hystrix" target="1.5" />
+      <module name="serverconsumer" target="1.5" />
+      <module name="serverprovider" target="1.5" />
+      <module name="serverprovider2" target="1.5" />
+      <module name="spring-cloud-parent" target="1.5" />
+      <module name="zuul" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-cloud-parent" options="" />
+    </option>
+  </component>
+</project>
